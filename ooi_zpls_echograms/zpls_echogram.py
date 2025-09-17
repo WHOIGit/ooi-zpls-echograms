@@ -132,7 +132,7 @@ site_config = {
         'deployed_depth': 30,
         'depth_offset': 1.0,
         'average_salinity': 35,
-        'average_temperature': 13,
+        'average_temperature': 15,
         'instrument_orientation': 'up'
     },
     'CP11NOSM': {
@@ -143,7 +143,7 @@ site_config = {
         'deployed_depth': 100,
         'depth_offset': 1.0,
         'average_salinity': 34,
-        'average_temperature': 13,
+        'average_temperature': 10,
         'instrument_orientation': 'up'
     },
     'CP11SOSM': {
@@ -154,7 +154,7 @@ site_config = {
         'deployed_depth': 100,
         'depth_offset': 1.0,
         'average_salinity': 35,
-        'average_temperature': 13,
+        'average_temperature': 10,
         'instrument_orientation': 'up'
     },
     'GI02HYPM_UPPER': {
