@@ -131,8 +131,8 @@ site_config = {
         'vertical_range': [0, 30],
         'deployed_depth': 30,
         'depth_offset': 1.0,
-        'average_salinity': 35,
-        'average_temperature': 15,
+        'average_salinity': 33.6,
+        'average_temperature': 14.1,
         'instrument_orientation': 'up'
     },
     'CP11NOSM': {
@@ -142,8 +142,8 @@ site_config = {
         'vertical_range': [0, 100],
         'deployed_depth': 100,
         'depth_offset': 1.0,
-        'average_salinity': 34,
-        'average_temperature': 10,
+        'average_salinity': 34.6,
+        'average_temperature': 12.1,
         'instrument_orientation': 'up'
     },
     'CP11SOSM': {
@@ -153,8 +153,8 @@ site_config = {
         'vertical_range': [0, 100],
         'deployed_depth': 100,
         'depth_offset': 1.0,
-        'average_salinity': 35,
-        'average_temperature': 10,
+        'average_salinity': 34.4,
+        'average_temperature': 12.2,
         'instrument_orientation': 'up'
     },
     'GI02HYPM_UPPER': {
