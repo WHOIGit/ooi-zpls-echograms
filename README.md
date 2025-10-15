@@ -20,9 +20,12 @@ the bioacoustic sonar sensors (a total of 17) are deployed.
 | Coastal Endurance | [CE06ISSM](https://oceanobservatories.org/site/ce06issm/) | AZFP | 29 m | Washington Inshore Surface Mooring |
 | Coastal Endurance | [CE07SHSM](https://oceanobservatories.org/site/ce07shsm/) | AZFP | 87 m | Washington Shelf Surface Mooring |
 | Coastal Endurance | [CE09OSSM](https://oceanobservatories.org/site/ce09ossm/) | AZFP | 542 m | Washington Offshore Surface Mooring |
-| Coastal Pioneer | [CP03ISSM](https://oceanobservatories.org/site/cp03issm/) | AZFP | 95 m | Inshore Surface Mooring |
-| Coastal Pioneer | [CP01CNSM](https://oceanobservatories.org/site/cp01cnsm/) | AZFP | 135 m | Central Surface Mooring |
-| Coastal Pioneer | [CP04OSSM](https://oceanobservatories.org/site/cp04ossm/) | AZFP | 450 m | Offshore Surface Mooring |
+| Coastal Pioneer NES | [CP03ISSM](https://oceanobservatories.org/site/cp03issm/) | AZFP | 95 m | Inshore Surface Mooring |
+| Coastal Pioneer NES | [CP01CNSM](https://oceanobservatories.org/site/cp01cnsm/) | AZFP | 135 m | Central Surface Mooring |
+| Coastal Pioneer NES | [CP04OSSM](https://oceanobservatories.org/site/cp04ossm/) | AZFP | 450 m | Offshore Surface Mooring |
+| Coastal Pioneer MAB | [CP11NOSM](https://oceanobservatories.org/site/cp11nosm/) | AZFP | 100 m | Northern Surface Mooring |
+| Coastal Pioneer MAB | [CP10CNSM](https://oceanobservatories.org/site/cp10cnsm/) | AZFP | 30 m | Central Surface Mooring |
+| Coastal Pioneer MAB | [CP11SOSM](https://oceanobservatories.org/site/cp11sosm/) | AZFP | 100 m | Southern Surface Mooring |
 | Global Argentine Basin | [GA02HYPM](https://oceanobservatories.org/site/ga02hypm/) | AZFP | 150 m | Apex Profiler Mooring, both upward and downward looking sensors |
 | Global Irminger Sea | [GI02HYPM](https://oceanobservatories.org/site/gi02hypm/) | AZFP | 150 m | Apex Profiler Mooring, both upward and downward looking sensors |
 | Global Station Papa | [GP02HYPM](https://oceanobservatories.org/site/gp02hypm/) | AZFP | 150 m | Apex Profiler Mooring, both upward and downward looking sensors |
@@ -56,7 +59,7 @@ cd ooi-zpls-echograms
 
 # configure the OOI python environment
 conda env create -f environment.yml
-conda activate echopype
+conda activate echogram
 
 # install the package as a local development package
 conda develop .
